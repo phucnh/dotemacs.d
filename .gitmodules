@@ -1,0 +1,6 @@
+[submodule "el-get/el-get"]
+	path = el-get/el-get
+	url = https://github.com/dimitri/el-get.git
+[submodule "themes/molokai"]
+	path = themes/molokai
+	url = git@github.com:hbin/molokai-theme.git

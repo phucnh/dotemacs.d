@@ -1,0 +1,10 @@
+(defun customizations-for-emacs-lisp-mode ()
+  (interactive)
+  (setq whitespace-action (quote (auto-cleanup)))
+  (linum-mode t)
+  (hs-minor-mode 1)
+  (auto-complete-mode)
+  (smartparens-mode)
+  )
+
+(add-hook 'emacs-lisp-mode-hook 'customizations-for-emacs-lisp-mode)
